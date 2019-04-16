@@ -32,6 +32,38 @@ img {
   width: 80%;
 }
 
+
+button
+{
+    margin: 2rem;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#75cac3), color-stop(100%,#4ECCA3));
+    /* background: #75cac3; */
+    background-image: -webkit-linear-gradient(top, #75cac3, #4ECCA3);
+    background-image: -moz-linear-gradient(top, #75cac3, #4ECCA3);
+    background-image: -ms-linear-gradient(top, #75cac3, #4ECCA3);
+    background-image: -o-linear-gradient(top, #75cac3, #4ECCA3);
+    background-image: linear-gradient(to bottom, #75cac3, #4ECCA3);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #111111;
+    font-size: 25px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+}
+button:hover{
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d7f7f5), color-stop(100%,#75cac3));
+  /* background: #d7f7f5; */
+  background-image: -webkit-linear-gradient(top, #d7f7f5, #75cac3);
+  background-image: -moz-linear-gradient(top, #d7f7f5, #75cac3);
+  background-image: -ms-linear-gradient(top, #d7f7f5, #75cac3);
+  background-image: -o-linear-gradient(top, #d7f7f5, #75cac3);
+  background-image: linear-gradient(to bottom, #d7f7f5, #75cac3);
+  text-decoration: none;
+}
+
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
